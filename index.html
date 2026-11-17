@@ -1,0 +1,357 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="description" content="매일 오전 7시, 정치·경제·사회·IT·AI 분야 어제의 주요 소식을 중요도 순으로 요약하고 시사점을 붙인 브리핑.">
+<meta property="og:title" content="아침 7시 브리핑">
+<meta property="og:description" content="정치·경제·사회·IT·AI, 어제의 주요 소식을 중요도 순으로 두세 줄 요약과 한 줄 시사점으로.">
+<style>:root{color-scheme:light;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}body{margin:0;font:14px system-ui,sans-serif}img{max-width:100%}[hidden]{display:none!important}</style>
+</head>
+<body><title>아침 7시 브리핑</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@500;700;900&family=IBM+Plex+Sans+KR:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: a single reading column like a morning wire digest — date masthead, filter rail, ranked items with an importance meter. */
+:root {
+  --bg: #f2f4f7;
+  --surface: #ffffff;
+  --ink: #131b26;
+  --ink-2: #4a5566;
+  --ink-3: #7b8596;
+  --line: #dde2ea;
+  --accent: #1f47c9;
+  --accent-soft: #e5ebfb;
+  --dawn: #e8890c;
+  --c-politics: #b4325a;
+  --c-economy: #1b7f5c;
+  --c-society: #8a5a14;
+  --c-it: #1f5fae;
+  --c-ai: #6a3fc1;
+  --font-display: "Gothic A1", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+  --font-body: "IBM Plex Sans KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, "Consolas", monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0e131b; --surface: #161d28; --ink: #e8edf4; --ink-2: #a9b4c4; --ink-3: #7a8699;
+    --line: #263142; --accent: #8aa6ff; --accent-soft: #1d2a4d; --dawn: #f5a742;
+    --c-politics: #f07b9c; --c-economy: #4fcf9e; --c-society: #e0ad5c; --c-it: #6ea8f0; --c-ai: #b493f5;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #0e131b; --surface: #161d28; --ink: #e8edf4; --ink-2: #a9b4c4; --ink-3: #7a8699;
+  --line: #263142; --accent: #8aa6ff; --accent-soft: #1d2a4d; --dawn: #f5a742;
+  --c-politics: #f07b9c; --c-economy: #4fcf9e; --c-society: #e0ad5c; --c-it: #6ea8f0; --c-ai: #b493f5;
+  color-scheme: dark;
+}
+
+* { box-sizing: border-box; }
+body {
+  background: var(--bg); color: var(--ink);
+  font-family: var(--font-body); font-size: 15px; line-height: 1.65;
+  word-break: keep-all; overflow-wrap: anywhere;
+}
+.wrap {
+  max-width: 760px; margin: 0 auto;
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+  padding-block: 28px 64px;
+  display: flex; flex-direction: column; gap: 22px;
+}
+
+/* Masthead */
+.mast { display: flex; flex-direction: column; gap: 6px; }
+.mast-top { display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
+.edition {
+  font-family: var(--font-mono); font-size: 12px; letter-spacing: .08em; color: var(--ink-3);
+  display: inline-flex; align-items: center; gap: 8px;
+}
+.edition::before { content: ""; width: 9px; height: 9px; border-radius: 50%; background: var(--dawn); box-shadow: 0 0 0 4px color-mix(in srgb, var(--dawn) 22%, transparent); }
+h1 {
+  margin: 0; font-family: var(--font-display); font-weight: 900; font-size: clamp(28px, 6vw, 40px);
+  line-height: 1.2; letter-spacing: -.02em; text-wrap: balance;
+}
+.sub { margin: 0; color: var(--ink-2); font-size: 14px; }
+.overview {
+  margin: 6px 0 0; padding: 14px 16px; background: var(--accent-soft); border-radius: 10px;
+  font-size: 15px; line-height: 1.6; color: var(--ink);
+}
+.overview b { font-family: var(--font-display); font-weight: 700; color: var(--accent); margin-right: 6px; }
+
+/* Archive nav */
+.nav { display: flex; gap: 8px; align-items: center; }
+.nav button, .nav select {
+  font: 500 13px var(--font-body); color: var(--ink); background: var(--surface);
+  border: 1px solid var(--line); border-radius: 8px; height: 34px; padding: 0 10px; cursor: pointer;
+}
+.nav button:disabled { opacity: .4; cursor: default; }
+.nav select { max-width: 190px; }
+button:focus-visible, select:focus-visible, a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+/* Filter rail */
+.filters { display: flex; gap: 6px; flex-wrap: wrap; position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; padding-block: 8px; background: var(--bg); }
+body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 10; background: var(--bg); }
+.chip {
+  font: 600 13px var(--font-body); border: 1px solid var(--line); background: var(--surface); color: var(--ink-2);
+  border-radius: 999px; padding: 5px 13px; cursor: pointer; display: inline-flex; gap: 6px; align-items: center;
+}
+.chip .n { font-family: var(--font-mono); font-size: 11px; color: var(--ink-3); }
+.chip[aria-pressed="true"] { background: var(--ink); color: var(--bg); border-color: var(--ink); }
+.chip[aria-pressed="true"] .n { color: var(--bg); opacity: .7; }
+
+/* Items */
+.list { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 12px; }
+.item {
+  background: var(--surface); border: 1px solid var(--line); border-radius: 12px;
+  padding: 18px 18px 16px; display: grid; grid-template-columns: 40px minmax(0, 1fr); gap: 4px 14px;
+}
+.rank { font-family: var(--font-mono); font-weight: 500; font-size: 22px; color: var(--ink-3); line-height: 1.1; padding-top: 2px; }
+.item.top .rank { color: var(--dawn); }
+.body { min-width: 0; display: flex; flex-direction: column; gap: 8px; }
+.meta { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
+.cat { font: 700 12px var(--font-body); letter-spacing: .04em; color: var(--cat); display: inline-flex; align-items: center; gap: 6px; }
+.cat::before { content: ""; width: 8px; height: 8px; border-radius: 2px; background: var(--cat); }
+.meter { display: inline-flex; gap: 2px; align-items: center; }
+.meter i { width: 12px; height: 5px; border-radius: 1px; background: var(--line); }
+.meter i.on { background: var(--cat); }
+.meter-label { font-family: var(--font-mono); font-size: 11px; color: var(--ink-3); }
+.headline { margin: 0; font-family: var(--font-display); font-weight: 700; font-size: 18px; line-height: 1.4; letter-spacing: -.01em; text-wrap: balance; }
+.summary { margin: 0; color: var(--ink-2); }
+.implication { margin: 0; display: flex; gap: 10px; align-items: baseline; padding-top: 10px; border-top: 1px dashed var(--line); }
+.implication .lbl {
+  flex: none; font: 700 11px var(--font-body); letter-spacing: .06em; color: var(--accent);
+  border: 1px solid currentColor; border-radius: 4px; padding: 1px 6px;
+}
+.implication .txt { font-weight: 500; color: var(--ink); }
+.sources { display: flex; gap: 4px 12px; flex-wrap: wrap; font-size: 12px; }
+.sources a { color: var(--ink-3); text-decoration: none; border-bottom: 1px solid var(--line); }
+.sources a:hover { color: var(--accent); border-color: var(--accent); }
+
+.state { text-align: center; padding: 48px 16px; color: var(--ink-2); background: var(--surface); border: 1px dashed var(--line); border-radius: 12px; }
+.state strong { display: block; font-family: var(--font-display); font-size: 18px; color: var(--ink); margin-bottom: 6px; }
+.foot { font-size: 12px; color: var(--ink-3); text-align: center; }
+
+@media (max-width: 480px) {
+  .item { grid-template-columns: minmax(0, 1fr); padding: 16px; }
+  .rank { font-size: 15px; }
+  .nav select { max-width: 150px; }
+}
+@media (prefers-reduced-motion: no-preference) {
+  .item { animation: rise .35s ease both; }
+  @keyframes rise { from { transform: translateY(6px); } to { transform: none; } }
+}
+</style>
+
+<div class="wrap">
+  <header class="mast">
+    <div class="mast-top">
+      <span class="edition" id="edition">MORNING BRIEF · 07:00 KST</span>
+      <nav class="nav" aria-label="지난 브리핑">
+        <button id="prev" type="button" aria-label="이전 날짜" disabled>‹</button>
+        <select id="picker" aria-label="브리핑 날짜 선택" disabled><option>불러오는 중</option></select>
+        <button id="next" type="button" aria-label="다음 날짜" disabled>›</button>
+      </nav>
+    </div>
+    <h1 id="title">아침 7시 브리핑</h1>
+    <p class="sub" id="sub">정치 · 경제 · 사회 · IT · AI, 어제의 주요 소식을 중요도 순으로</p>
+    <p class="overview" id="overview" hidden></p>
+  </header>
+
+  <div class="filters" id="filters" role="toolbar" aria-label="분야 필터"></div>
+
+  <main>
+    <div class="state" id="state">
+      <strong>브리핑을 불러오는 중입니다</strong>
+      매일 오전 7시에 새 브리핑이 올라옵니다.
+    </div>
+    <ol class="list" id="list" hidden></ol>
+  </main>
+
+  <p class="foot" id="foot">요약과 시사점은 Claude가 공개 보도를 바탕으로 작성합니다. 원문 링크에서 사실관계를 확인하세요.</p>
+</div>
+
+<script>
+(() => {
+  const CATS = [
+    { key: "정치", var: "--c-politics" },
+    { key: "경제", var: "--c-economy" },
+    { key: "사회", var: "--c-society" },
+    { key: "IT",   var: "--c-it" },
+    { key: "AI",   var: "--c-ai" },
+  ];
+  const DAYS = ["일", "월", "화", "수", "목", "금", "토"];
+  const $ = (id) => document.getElementById(id);
+  let briefs = [];      // sorted desc by briefDate
+  let current = null;   // briefDate string
+  let filter = "전체";
+
+  try { const f = localStorage.getItem("mb-filter"); if (f) filter = f; } catch (e) {}
+
+  const fmtDate = (s, withDay = true) => {
+    const [y, m, d] = s.split("-").map(Number);
+    if (!y) return s;
+    const dt = new Date(Date.UTC(y, m - 1, d));
+    return `${y}년 ${m}월 ${d}일` + (withDay ? ` (${DAYS[dt.getUTCDay()]})` : "");
+  };
+  const shortDate = (s) => { const [, m, d] = s.split("-").map(Number); return `${m}월 ${d}일`; };
+
+  function el(tag, cls, text) {
+    const n = document.createElement(tag);
+    if (cls) n.className = cls;
+    if (text != null) n.textContent = text;
+    return n;
+  }
+
+  function showState(title, msg) {
+    const s = $("state");
+    s.replaceChildren(el("strong", null, title), document.createTextNode(msg));
+    s.hidden = false; $("list").hidden = true;
+  }
+
+  function renderFilters(items) {
+    const box = $("filters");
+    box.replaceChildren();
+    const counts = { "전체": items.length };
+    CATS.forEach(c => counts[c.key] = items.filter(i => i.category === c.key).length);
+    ["전체", ...CATS.map(c => c.key)].forEach(k => {
+      const b = el("button", "chip");
+      b.type = "button"; b.id = "f-" + k;
+      b.setAttribute("aria-pressed", String(filter === k));
+      b.append(document.createTextNode(k), el("span", "n", String(counts[k] || 0)));
+      b.addEventListener("click", () => {
+        filter = k;
+        try { localStorage.setItem("mb-filter", k); } catch (e) {}
+        render();
+      });
+      box.append(b);
+    });
+  }
+
+  function safeUrl(u) {
+    try { const x = new URL(u); return (x.protocol === "https:" || x.protocol === "http:") ? x.href : null; } catch (e) { return null; }
+  }
+
+  function renderItem(it, idx) {
+    const cat = CATS.find(c => c.key === it.category) || CATS[2];
+    const li = el("li", "item" + (idx < 3 ? " top" : ""));
+    li.style.setProperty("--cat", `var(${cat.var})`);
+    li.append(el("div", "rank", String(it.rank ?? idx + 1).padStart(2, "0")));
+    const body = el("div", "body");
+
+    const meta = el("div", "meta");
+    meta.append(el("span", "cat", it.category || ""));
+    const imp = Math.max(1, Math.min(5, Number(it.importance) || 3));
+    const meter = el("span", "meter");
+    meter.setAttribute("aria-label", `중요도 ${imp}/5`);
+    for (let i = 1; i <= 5; i++) meter.append(el("i", i <= imp ? "on" : ""));
+    meta.append(meter, el("span", "meter-label", `중요도 ${imp}/5`));
+    body.append(meta);
+
+    body.append(el("h2", "headline", it.title || ""));
+    body.append(el("p", "summary", it.summary || ""));
+
+    if (it.implication) {
+      const p = el("p", "implication");
+      p.append(el("span", "lbl", "시사점"), el("span", "txt", it.implication));
+      body.append(p);
+    }
+    const srcs = (it.sources || []).map(s => ({ name: s.name || "원문", url: safeUrl(s.url) })).filter(s => s.url);
+    if (srcs.length) {
+      const sv = el("div", "sources");
+      srcs.forEach(s => { const a = el("a", null, s.name + " ↗"); a.href = s.url; a.target = "_blank"; a.rel = "noopener"; sv.append(a); });
+      body.append(sv);
+    }
+    li.append(body);
+    return li;
+  }
+
+  function renderNav() {
+    const pk = $("picker");
+    pk.replaceChildren();
+    briefs.forEach(b => {
+      const o = el("option", null, fmtDate(b.briefDate) + (b === briefs[0] ? " · 최신" : ""));
+      o.value = b.briefDate;
+      pk.append(o);
+    });
+    pk.value = current;
+    pk.disabled = briefs.length === 0;
+    const i = briefs.findIndex(b => b.briefDate === current);
+    $("prev").disabled = i < 0 || i >= briefs.length - 1;
+    $("next").disabled = i <= 0;
+  }
+
+  function render() {
+    const b = cache[current];
+    renderNav();
+    if (!b) return;
+    $("edition").textContent = `MORNING BRIEF · ${b.briefDate.replaceAll("-", ".")} 07:00 KST`;
+    $("title").textContent = `${fmtDate(b.briefDate)} 아침 브리핑`;
+    $("sub").textContent = `${fmtDate(b.newsDate || b.briefDate, false)} 소식 · 정치 · 경제 · 사회 · IT · AI · 중요도 순`;
+    const ov = $("overview");
+    if (b.overview) { ov.replaceChildren(el("b", null, "오늘의 한 줄"), document.createTextNode(b.overview)); ov.hidden = false; }
+    else ov.hidden = true;
+
+    const items = [...(b.items || [])].sort((a, c) => (a.rank ?? 99) - (c.rank ?? 99));
+    renderFilters(items);
+    const shown = filter === "전체" ? items : items.filter(i => i.category === filter);
+    const list = $("list");
+    list.replaceChildren(...shown.map((it, idx) => renderItem(it, filter === "전체" ? idx : 99)));
+    if (!shown.length) showState(`${filter} 분야 소식이 없습니다`, "다른 분야를 선택해 보세요.");
+    else { $("state").hidden = true; list.hidden = false; }
+    if (b.generatedAt) {
+      const t = new Date(b.generatedAt);
+      if (!isNaN(t)) $("foot").textContent = `${t.toLocaleString("ko-KR", { timeZone: "Asia/Seoul", month: "long", day: "numeric", hour: "2-digit", minute: "2-digit" })} 작성 · 요약과 시사점은 Claude가 공개 보도를 바탕으로 작성합니다. 원문 링크에서 사실관계를 확인하세요.`;
+    }
+  }
+
+  const cache = {};
+  const isDate = (s) => /^\d{4}-\d{2}-\d{2}$/.test(s);
+
+  async function getJSON(path) {
+    const r = await fetch(path, { cache: "no-store" });
+    if (!r.ok) throw new Error(String(r.status));
+    return r.json();
+  }
+
+  async function go(date, scroll = true) {
+    if (!isDate(date)) return;
+    current = date;
+    if (location.hash.slice(1) !== date) history.replaceState(null, "", "#" + date);
+    if (!cache[date]) {
+      renderNav();
+      showState("브리핑을 불러오는 중입니다", fmtDate(date));
+      try { cache[date] = await getJSON(`data/${date}.json`); }
+      catch (e) { if (current === date) showState("이 날짜의 브리핑을 불러오지 못했습니다", "잠시 후 다시 시도하거나 다른 날짜를 선택해 주세요."); return; }
+      if (current !== date) return;
+    }
+    render();
+    if (scroll) window.scrollTo({ top: 0 });
+  }
+
+  $("picker").addEventListener("change", e => go(e.target.value));
+  $("prev").addEventListener("click", () => { const i = briefs.findIndex(b => b.briefDate === current); if (briefs[i + 1]) go(briefs[i + 1].briefDate); });
+  $("next").addEventListener("click", () => { const i = briefs.findIndex(b => b.briefDate === current); if (i > 0) go(briefs[i - 1].briefDate); });
+  window.addEventListener("hashchange", () => { const h = location.hash.slice(1); if (briefs.some(b => b.briefDate === h) && h !== current) go(h, false); });
+
+  async function start() {
+    try {
+      const idx = await getJSON("data/index.json");
+      briefs = (idx.briefs || []).filter(b => b && isDate(b.briefDate)).sort((a, b) => b.briefDate.localeCompare(a.briefDate));
+    } catch (e) {
+      showState("브리핑 목록을 불러오지 못했습니다", "네트워크 상태를 확인한 뒤 페이지를 다시 열어 주세요.");
+      return;
+    }
+    if (!briefs.length) { showState("첫 브리핑을 준비하고 있습니다", "매일 오전 7시에 어제의 주요 소식이 이곳에 정리됩니다."); renderNav(); return; }
+    const h = location.hash.slice(1);
+    go(briefs.some(b => b.briefDate === h) ? h : briefs[0].briefDate, false);
+  }
+  start();
+})();
+</script>
+
+</body>
+</html>

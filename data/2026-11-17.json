@@ -1,0 +1,214 @@
+{
+  "briefDate": "2026-11-17",
+  "generatedAt": "2026-11-17T07:00:00+09:00",
+  "items": [
+    {
+      "category": "경제",
+      "implication": "엔비디아 실적(17일)과 미 국채금리 흐름이 반도체 비중이 큰 국내 증시의 단기 방향을 가를 가능성이 큽니다.",
+      "importance": 5,
+      "rank": 1,
+      "sources": [
+        {
+          "name": "주달",
+          "url": "https://judal.co.kr/?category=stock&idx=4937&themeIdx=&view=talkV"
+        },
+        {
+          "name": "머니투데이",
+          "url": "https://www.mt.co.kr/economy/2026/11/16/2026111616221711960"
+        }
+      ],
+      "summary": "16일 코스피는 190.03포인트(3.59%) 내린 5100.50, 코스닥은 4.86% 내린 665.65에 마감했습니다. 외국인이 유가증권시장에서 1조3837억원을 순매도하며 하락을 주도했습니다.",
+      "title": "코스피 3.59% 급락, 5100선까지 밀려…외국인 1.4조 순매도"
+    },
+    {
+      "category": "사회",
+      "implication": "AI 기기를 전제로 한 시험 감독·평가 방식 전면 재설계가 불가피해졌고, 이번 주 수능이 첫 시험대가 됩니다.",
+      "importance": 5,
+      "rank": 2,
+      "sources": [
+        {
+          "name": "스페셜타임스",
+          "url": "https://www.specialtimes.co.kr/news/articleView.html?idxno=486330"
+        },
+        {
+          "name": "뉴스핌",
+          "url": "https://www.newspim.com/news/view/20261115000139"
+        }
+      ],
+      "summary": "세무사 시험 수석 합격자가 초소형 카메라와 스마트폰, 생성형 AI를 이용한 부정행위를 인정했습니다. 청와대는 AI 부정행위가 의심되는 국가시험을 전수조사하기로 했고, 국무총리 주재 범부처 대응 회의와 국회의 수능 부정행위 방지 대책 점검이 이어졌습니다.",
+      "title": "세무사 시험 수석, 초소형 카메라·생성형 AI로 부정행위 자백…정부 국가시험 전수조사"
+    },
+    {
+      "category": "IT",
+      "implication": "17일 엔비디아 실적이 AI 투자 사이클에 대한 시장 신뢰를 재확인할지, 조정의 신호가 될지 가늠자가 됩니다.",
+      "importance": 4,
+      "rank": 3,
+      "sources": [
+        {
+          "name": "뉴스핌",
+          "url": "https://www.newspim.com/news/view/20261116001439"
+        }
+      ],
+      "summary": "16일(현지시간) 개장 전 거래에서 엔비디아·TSMC·장비주 등 주요 반도체주가 함께 하락했습니다. 엔비디아 경영진 교체를 둘러싼 불확실성과 대중국 수출 규정 준수 문제가 부담으로 꼽혔습니다.",
+      "title": "엔비디아 실적 앞두고 미국 반도체주 일제히 약세"
+    },
+    {
+      "category": "정치",
+      "implication": "핵심광물 협력 성과가 반도체·배터리 공급망 안정과 대중·대일 관계 관리의 지표가 될 전망입니다.",
+      "importance": 4,
+      "rank": 4,
+      "sources": [
+        {
+          "name": "뉴스핌",
+          "url": "https://www.newspim.com/news/view/20261115000139"
+        }
+      ],
+      "summary": "대통령이 아세안 및 APEC 정상회의 참석을 위한 순방길에 올랐습니다. 한·중·일, 한·메콩 정상회의 등에서 핵심광물 공급망과 초국가 범죄 대응 협력을 논의할 예정입니다.",
+      "title": "이재명 대통령, 3박 4일 아세안·APEC 순방 시작"
+    },
+    {
+      "category": "AI",
+      "implication": "미국의 AI 산업정책이 소수 기업 중심으로 굳어질 경우, 동맹국 기업의 공급망·규제 협상 여건도 달라질 수 있습니다.",
+      "importance": 4,
+      "rank": 5,
+      "sources": [
+        {
+          "name": "The Neuron",
+          "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-monday-november-16-2026/"
+        }
+      ],
+      "summary": "월스트리트저널은 트럼프 행정부가 엔비디아, 아마존, 마이크로소프트, 오픈AI, 앤트로픽 등 20여 개 기업을 AI 'national champion'으로 지정할 계획이라고 보도했습니다. 해당 기업들은 아직 확인하지 않았습니다.",
+      "title": "美 정부, 엔비디아·오픈AI·앤트로픽 등 'AI 국가대표 기업' 지정 추진 보도"
+    },
+    {
+      "category": "IT",
+      "implication": "업무가 단일 클라우드·AI 플랫폼에 집중될수록 장애 대비(이중화·대체 수단) 계획이 경영 리스크 관리의 필수 항목이 됩니다.",
+      "importance": 4,
+      "rank": 6,
+      "sources": [
+        {
+          "name": "AI Weekly",
+          "url": "https://aiweekly.co/ai-news-today/edition/2026-11-16"
+        }
+      ],
+      "summary": "마이크로소프트 365에서 18시간 넘게 이어진 대규모 장애로 메일·일정과 함께 Copilot 등 기업용 AI 비서 이용이 여러 나라에서 차질을 빚었습니다. 회사는 장애 발생 24시간이 지나서야 근본 원인을 해결했다고 밝혔습니다.",
+      "title": "마이크로소프트 365 전 세계 장애 장기화…업무용 AI 비서도 멈춰"
+    },
+    {
+      "category": "정치",
+      "implication": "특검법과 예산안이 맞물리며 연말 정기국회 처리 일정이 지연될 위험이 커졌습니다.",
+      "importance": 4,
+      "rank": 7,
+      "sources": [
+        {
+          "name": "뉴스핌",
+          "url": "https://www.newspim.com/news/view/20261115000134"
+        },
+        {
+          "name": "일간경기",
+          "url": "https://www.1gan.co.kr/news/articleView.html?idxno=420882"
+        }
+      ],
+      "summary": "조작기소 특검법 공포안이 17일 국무회의를 통과할 것으로 전망되는 가운데 위헌성 논란이 이어지고 있습니다. 국민의힘은 미래대응기금 5대 조건 수용을 예산·법안 심사 협조의 전제로 내걸었습니다.",
+      "title": "'조작기소 특검법' 공포 임박…예산 정국 여야 대치"
+    },
+    {
+      "category": "AI",
+      "implication": "AI 기업의 제품 확장 속도와 주 정부 차원의 안전 규제 집행이 정면으로 부딪치는 국면입니다.",
+      "importance": 3,
+      "rank": 8,
+      "sources": [
+        {
+          "name": "The Neuron",
+          "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-monday-november-16-2026/"
+        },
+        {
+          "name": "AI Weekly",
+          "url": "https://aiweekly.co/ai-news-today/edition/2026-11-16"
+        }
+      ],
+      "summary": "캘리포니아주가 오픈AI가 충분한 안전장치 없이 모델을 시험했다며 소송을 제기한 것으로 보도됐습니다. 같은 날 오픈AI는 AI 에이전트가 결제까지 수행하는 ChatGPT Wallet을 공개한 것으로 전해졌습니다.",
+      "title": "캘리포니아주, '안전장치 없이 모델 시험' 혐의로 오픈AI 제소"
+    },
+    {
+      "category": "IT",
+      "implication": "전력·용수·인력 인프라 확보 속도가 국내 메모리 경쟁력의 실제 병목이 될 전망입니다.",
+      "importance": 3,
+      "rank": 9,
+      "sources": [
+        {
+          "name": "SPTA Times Korea",
+          "url": "https://www.sptatimeskorea.com/post/%EC%A0%9C20261116-ti-01%ED%98%B8-2026%EB%85%84-11%EC%9B%94-16%EC%9D%BC-%EA%B8%80%EB%A1%9C%EB%B2%8C-%EB%B0%98%EB%8F%84%EC%B2%B4-%EC%82%B0%EC%97%85-%EA%B4%80%EB%A0%A8-%EC%A3%BC%EC%9A%94-%EB%89%B4%EC%8A%A4-%EC%9A%94%EC%95%BD"
+        }
+      ],
+      "summary": "한 보도에 따르면 SK하이닉스는 용인 반도체 클러스터에 총 600조원을 들여 4개 팹을 짓고, 완공 목표를 2045년에서 2033년으로 앞당기고 있습니다. AI 수요로 인한 메모리 공급 부족이 배경으로 꼽혔습니다.",
+      "title": "SK하이닉스 용인 클러스터, 완공 목표 2033년으로 12년 앞당겨"
+    },
+    {
+      "category": "경제",
+      "implication": "연말 거래량 감소로 수급 변화에 환율이 민감해진 만큼, 미 국채금리와 일본 외환당국 개입 여부가 주요 변수입니다.",
+      "importance": 3,
+      "rank": 10,
+      "sources": [
+        {
+          "name": "뉴스1",
+          "url": "https://www.news1.kr/finance/market-exr/6355567"
+        },
+        {
+          "name": "머니투데이",
+          "url": "https://www.mt.co.kr/economy/2026/11/16/2026111616221711960"
+        }
+      ],
+      "summary": "원/달러 환율은 전 거래일보다 1.0원 내린 1335.7원에 주간거래를 마쳤습니다. 외국인 매도와 강달러에도 반도체 수출기업의 달러 매도 물량이 환율을 눌렀다는 분석입니다.",
+      "title": "증시 급락에도 원/달러 환율 1335.7원으로 소폭 하락"
+    },
+    {
+      "category": "정치",
+      "implication": "선고 여부와 시점이 내란 관련 재판 전반의 속도와 정치권 공방의 강도를 좌우할 수 있습니다.",
+      "importance": 3,
+      "rank": 11,
+      "sources": [
+        {
+          "name": "스페셜타임스",
+          "url": "https://www.specialtimes.co.kr/news/articleView.html?idxno=486330"
+        }
+      ],
+      "summary": "내란 혐의로 재판 중인 한덕수 전 국무총리의 구속기간이 20일 만료됩니다. 대법원이 그 전에 선고할지에 관심이 쏠리고 있습니다.",
+      "title": "한덕수 전 총리 구속기간 20일 만료…대법원 선고 시점 주목"
+    },
+    {
+      "category": "AI",
+      "implication": "GPU 공급처 다변화(엔비디아 외 AMD)가 빨라지는 동시에, 데이터센터 투자 옥석 가리기도 시작되는 모습입니다.",
+      "importance": 3,
+      "rank": 12,
+      "sources": [
+        {
+          "name": "AI Weekly",
+          "url": "https://aiweekly.co/ai-news-today/edition/2026-11-16"
+        }
+      ],
+      "summary": "AMD가 투자한 클라우드 업체 TensorWave가 미국 여러 거점에서 457메가와트 이상의 전용 AI 인프라를 오픈AI에 제공하기로 했습니다. 반면 캐나다 텔러스는 밴쿠버 AI 데이터센터 2곳 계획에서 철수했습니다.",
+      "title": "AI 인프라 경쟁 지속…TensorWave, 오픈AI에 457MW 규모 AMD 기반 인프라 공급"
+    },
+    {
+      "category": "사회",
+      "implication": "겨울철 난방기구 안전 점검과 온라인 허위 협박에 대한 엄정 대응 필요성이 다시 제기됩니다.",
+      "importance": 2,
+      "rank": 13,
+      "sources": [
+        {
+          "name": "데일리25",
+          "url": "https://www.daily25news.com/news/articleView.html?idxno=9038"
+        },
+        {
+          "name": "네이트 랭킹뉴스",
+          "url": "https://news.nate.com/rank/pop?date=20261116&p=day&sc=soc"
+        }
+      ],
+      "summary": "광주 종합버스터미널에 폭발물을 설치했다는 허위 글을 올린 대학생 2명이 입건됐습니다. 한 시골집에서는 화목난로가 폭발해 2세 여아를 포함한 일가족 7명이 다쳤습니다.",
+      "title": "광주 버스터미널 폭발물 허위 글 대학생 입건 등 사건·사고 잇따라"
+    }
+  ],
+  "newsDate": "2026-11-16",
+  "overview": "외국인 매도에 코스피가 3%대 급락한 가운데, AI를 이용한 국가시험 부정행위가 드러나 정부가 전수조사에 나섰고, 미국 반도체주는 엔비디아 실적을 앞두고 흔들렸습니다."
+}
