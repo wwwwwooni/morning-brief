@@ -1,0 +1,218 @@
+{
+  "briefDate": "2026-11-18",
+  "newsDate": "2026-11-17",
+  "generatedAt": "2026-11-18T07:20:00+09:00",
+  "overview": "코스피가 9개월 만에 5000선을 내준 가운데 미국의 AI칩 우회 차단 규제, 수능 AI 부정행위 대책, 특검법 국무회의 의결이 겹친 하루였습니다.",
+  "items": [
+    {
+      "rank": 1,
+      "category": "경제",
+      "importance": 5,
+      "title": "코스피 9개월 만에 5000선 붕괴…4968.48 마감",
+      "summary": "17일 코스피는 132.02포인트(2.59%) 내린 4968.48에 마감해 종가 기준 5000선을 밑돈 것은 지난 2월 2일 이후 약 9개월 만입니다. 코스닥은 15.59포인트(2.34%) 내린 650.06에 장을 마쳤습니다. 미국의 대중국 반도체 수출 규제 강화와 AI 투자 둔화 우려가 하락 원인으로 꼽혔습니다.",
+      "implication": "엔비디아 실적 발표 이후 외국인 수급 복귀 여부가 5000선 회복의 관건입니다.",
+      "sources": [
+        {
+          "name": "뉴시스",
+          "url": "https://www.newsis.com/view/NISX20261117_0003872012"
+        },
+        {
+          "name": "한양경제",
+          "url": "https://www.hanyangeconomy.com/news/articleView.html?idxno=10664"
+        },
+        {
+          "name": "뉴스핌",
+          "url": "https://www.newspim.com/news/view/20261117001171"
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "category": "IT",
+      "importance": 5,
+      "title": "미 상무부, 제3국 데이터센터 통한 중국 AI칩 우회 접근 차단",
+      "summary": "미 상무부 산업안보국(BIS)은 16일(현지시간) 미국산 AI 반도체·서버로 중국 등 우려국 기업에 연산 능력을 제공하려면 어디서든 허가를 받도록 하는 잠정 최종규칙을 발표했습니다. 싱가포르·말레이시아·인도네시아·태국·브라질 등 5개국으로의 첨단 AI칩 수출도 원칙적으로 허가 대상이 됩니다. 전자신문은 한국 파운드리·후공정에 악영향이 우려된다고 전했고, 중국 외교부는 17일 강하게 반발했습니다.",
+      "implication": "시행 시점(보도마다 상이)과 한국 파운드리·동남아 사업에 미칠 구체적 영향을 확인해야 합니다.",
+      "sources": [
+        {
+          "name": "한국일보",
+          "url": "https://www.hankookilbo.com/news/article/A2026111709580000396"
+        },
+        {
+          "name": "전자신문",
+          "url": "https://www.etnews.com/20261117000325"
+        },
+        {
+          "name": "파이낸셜뉴스",
+          "url": "https://www.fnnews.com/news/202611171835316221"
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "category": "사회",
+      "importance": 5,
+      "title": "정부, 수능 AI 부정행위 대책 발표…응시제한 10년·감독 8400명 증원",
+      "summary": "정부는 17일 수능을 이틀 앞두고 AI 부정행위 대책을 발표했습니다. 모든 전자기기 반입을 금지하고 안경을 전수 점검하며, 감독 인력 8400여 명을 늘리고 부정행위자 응시 제한을 1년에서 10년으로 늘리는 법 개정을 추진합니다. 전파차단기 등 근본 대책이 빠졌다는 비판과 함께 한 수험생이 헌법소원을 청구했다고 보도됐습니다.",
+      "implication": "수능 당일 현장 혼란 여부와 소급 적용 제재의 법적 논란이 이어질 전망입니다.",
+      "sources": [
+        {
+          "name": "뉴스1",
+          "url": "https://www.news1.kr/society/education/6356985"
+        },
+        {
+          "name": "경향신문",
+          "url": "https://www.khan.co.kr/article/202611171810001/"
+        },
+        {
+          "name": "파이낸셜뉴스",
+          "url": "https://www.fnnews.com/news/202611161202131081"
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "category": "정치",
+      "importance": 5,
+      "title": "'조작기소 특검법' 공포안, 총리 주재 국무회의 의결",
+      "summary": "이재명 대통령의 해외 순방 중 한성숙 총리가 주재한 17일 국무회의에서 '조작기소 특검법' 공포안이 의결됐습니다. 최장 200일, 최대 309명 규모로 수사하며 대상 사건에 대통령 관련 사건이 포함됐고, 국민의힘은 '이재명 탈옥법'이라며 21일 공포 시한 전 재의를 요구했습니다. 일부에서는 개정 형사소송법과의 충돌 등 위헌 소지가 제기됐습니다.",
+      "implication": "대통령의 재가·재의요구 여부와 특검 후보 추천 절차가 정국의 최대 변수입니다.",
+      "sources": [
+        {
+          "name": "파이낸셜뉴스",
+          "url": "https://www.fnnews.com/news/202611171834076356"
+        },
+        {
+          "name": "법률신문",
+          "url": "https://www.lawtimes.co.kr/news/articleView.html?idxno=229553"
+        },
+        {
+          "name": "미디어오늘",
+          "url": "https://www.mediatoday.co.kr/news/articleView.html?idxno=338510"
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "category": "AI",
+      "importance": 5,
+      "title": "엔비디아 3분기 매출 1158억 달러 보도…젠슨 황 사임 후 첫 실적",
+      "summary": "엔비디아가 17일(미 현지) 3분기 실적을 발표했고, Gizmodo는 매출이 1158억 4천만 달러로 시장 전망을 웃돌았다고 전했습니다. 다음 분기 매출은 중국 데이터센터 판매를 가정하지 않고 약 1300억 달러로 제시했습니다. 임시 CEO 콜레트 크레스가 첫 투자자 콘퍼런스콜을 진행했으며, 수치는 엔비디아 공식 자료와 대조하지 못했습니다.",
+      "implication": "AI 자금조달 우려가 잦아들지, 새 경영진의 금융지원 정책이 어떻게 나올지가 국내 반도체주 반등의 열쇠입니다.",
+      "sources": [
+        {
+          "name": "Gizmodo",
+          "url": "https://gizmodo.com/nvidias-ai-money-machine-keeps-churning-without-jensen-huang-2000841301"
+        },
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/17/nvidia-nvda-earnings-report-q3-2027.html"
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "category": "IT",
+      "importance": 4,
+      "title": "삼성전자·SK하이닉스 3분기 누적 사상 최대…엔비디아 의존도 하락",
+      "summary": "삼성전자는 3분기 누적 매출 500조 6261억원, 영업이익 254조 1657억원으로 사상 최대를 기록했습니다. SK하이닉스 누적 매출은 236조 5105억원, 영업이익은 181조 4867억원이며, 엔비디아로 추정되는 최대 고객 비중은 14.8%로 12.2%포인트 낮아졌습니다. 4분기가 더 좋을 것이라는 전망도 나왔습니다.",
+      "implication": "주가 급락에도 이익 체력은 견고하지만, 엔비디아 쏠림이 줄고 중국 비중이 커진 점은 수출 규제 리스크로 이어질 수 있습니다.",
+      "sources": [
+        {
+          "name": "서울신문",
+          "url": "https://www.seoul.co.kr/news/economy/industry/2026/11/17/20261117031004"
+        },
+        {
+          "name": "글로벌이코노믹",
+          "url": "https://www.g-enews.com/article/Industry/2026/11/20261117141152311727fa31d75c_1"
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "category": "AI",
+      "importance": 4,
+      "title": "앤트로픽 IPO 공모가 확정 임박…최대 644억 달러 조달 보도",
+      "summary": "앤트로픽은 공모가 범위 70~78달러, 8억 2500만 주 발행, 최대 약 644억 달러 조달, 기업가치 약 1조 4000억 달러 규모로 IPO를 진행 중이며 19일 티커 ANT로 거래가 시작될 예정이라고 전해졌습니다. 가격 결정 시점은 매체마다 달라 확인이 필요하고, 공모가는 범위를 웃돌 것으로 예상된다는 보도도 있습니다.",
+      "implication": "상장 첫날 흐름이 AI 관련주 투자 심리와 오픈AI 등 경쟁사 자금조달에 영향을 줄 전망입니다.",
+      "sources": [
+        {
+          "name": "MarketScreener",
+          "url": "https://www.marketscreener.com/news/wall-street-ends-lower-ahead-of-nvidia-earnings-anthropic-debut-ce785edcdc8df226"
+        },
+        {
+          "name": "Shattered",
+          "url": "https://shattered.io/us-futures-fall-nvidia-earnings-anthropic-ipo-64-4-billion/"
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "category": "경제",
+      "importance": 3,
+      "title": "원/달러 1338.2원…달러 19개월 만에 최고치 경신",
+      "summary": "17일 원/달러 환율은 뉴시스·뉴스핌 기준 전 거래일 주간 종가보다 2.5원 오른 1338.2원에 마감했습니다(한양경제는 1337.6원). SBS는 미국의 추가 긴축 우려와 주가 하락으로 위험 회피 심리가 커지며 달러가 19개월 만의 최고치를 다시 경신했다고 전했습니다.",
+      "implication": "긴축 경계와 증시 변동성이 이어지면 환율 부담이 수입 물가에 미칠 영향을 지켜봐야 합니다.",
+      "sources": [
+        {
+          "name": "SBS",
+          "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008850138"
+        },
+        {
+          "name": "뉴시스",
+          "url": "https://www.newsis.com/view/NISX20261117_0003872012"
+        }
+      ]
+    },
+    {
+      "rank": 9,
+      "category": "AI",
+      "importance": 3,
+      "title": "오픈AI, GPT-6.2 Astra·Sol 출시",
+      "summary": "오픈AI가 17일 GPT-6.2 Astra와 Sol을 ChatGPT와 API에 공개했습니다. 보도에 따르면 Astra는 이전 모델보다 작업당 비용이 3분의 1 미만이며 API 입력 가격은 백만 토큰당 8달러로 20% 낮아졌습니다. 사이버보안 관련 고위험 요청에는 더 엄격한 안전장치가 적용됩니다.",
+      "implication": "가격 인하와 성능 향상이 기업의 AI 에이전트 도입 속도를 높일지 지켜봐야 합니다.",
+      "sources": [
+        {
+          "name": "OpenAI 개발자 커뮤니티",
+          "url": "https://community.openai.com/t/gpt-6-2-astra-and-sol-are-now-available/1417531"
+        },
+        {
+          "name": "TestingCatalog",
+          "url": "https://www.testingcatalog.com/openai-launches-gpt-6-2-astra-and-sol-on-chatgpt-and-apis/"
+        }
+      ]
+    },
+    {
+      "rank": 10,
+      "category": "정치",
+      "importance": 3,
+      "title": "예결소위 예산안 심사 본격화…19일 본회의 앞두고 여야 대치",
+      "summary": "국회 예결위는 16일부터 20일까지 역대 최대 820조 9천억원 규모의 내년도 예산안을 소위에서 심사하고 30일 전체회의에서 의결할 계획입니다. 미래대응기금(162조 3천억원)을 두고 민주당은 사수, 국민의힘은 전면 백지화를 요구하고 있으며, 19일 본회의 쟁점 법안에는 필리버스터로 대응한다는 방침입니다.",
+      "implication": "법정 처리 시한(12월 2일)을 앞두고 기금 협상과 필리버스터 여부가 예산 처리 일정을 가를 전망입니다.",
+      "sources": [
+        {
+          "name": "네이트뉴스",
+          "url": "https://m.news.nate.com/view/20261115n11555"
+        },
+        {
+          "name": "네이트뉴스(예결소위)",
+          "url": "https://m.news.nate.com/view/20261116n00993"
+        }
+      ]
+    },
+    {
+      "rank": 11,
+      "category": "사회",
+      "importance": 3,
+      "title": "구로서 경찰 간부, 생일잔치서 상인 20여명에 돈봉투 받아 대기발령",
+      "summary": "서울 구로경찰서 소속 김모 경감이 지난 8월 생일잔치에서 지역 상인 20여 명에게 돈봉투를 받은 혐의로 입건돼 대기발령됐습니다. 경찰은 지난 9월 근무지를 압수수색하고 금품 수수 경위와 대가성 여부를 확인하고 있다고 서울신문이 보도했습니다.",
+      "implication": "대가성이 인정되면 경찰 내부 청렴 감찰 강화 논의로 이어질 수 있습니다.",
+      "sources": [
+        {
+          "name": "서울신문",
+          "url": "https://www.seoul.co.kr/news/society/2026/11/17/20261117500325"
+        }
+      ]
+    }
+  ]
+}
