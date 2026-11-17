@@ -1,6 +1,6 @@
 {
   "briefDate": "2026-11-17",
-  "generatedAt": "2026-11-17T07:00:00+09:00",
+  "generatedAt": "2026-11-17T20:05:00+09:00",
   "items": [
     {
       "category": "경제",
@@ -163,24 +163,10 @@
       "title": "증시 급락에도 원/달러 환율 1335.7원으로 소폭 하락"
     },
     {
-      "category": "정치",
-      "implication": "선고 여부와 시점이 내란 관련 재판 전반의 속도와 정치권 공방의 강도를 좌우할 수 있습니다.",
-      "importance": 3,
-      "rank": 11,
-      "sources": [
-        {
-          "name": "스페셜타임스",
-          "url": "https://www.specialtimes.co.kr/news/articleView.html?idxno=486330"
-        }
-      ],
-      "summary": "내란 혐의로 재판 중인 한덕수 전 국무총리의 구속기간이 20일 만료됩니다. 대법원이 그 전에 선고할지에 관심이 쏠리고 있습니다.",
-      "title": "한덕수 전 총리 구속기간 20일 만료…대법원 선고 시점 주목"
-    },
-    {
       "category": "AI",
       "implication": "GPU 공급처 다변화(엔비디아 외 AMD)가 빨라지는 동시에, 데이터센터 투자 옥석 가리기도 시작되는 모습입니다.",
       "importance": 3,
-      "rank": 12,
+      "rank": 11,
       "sources": [
         {
           "name": "AI Weekly",
@@ -189,6 +175,24 @@
       ],
       "summary": "AMD가 투자한 클라우드 업체 TensorWave가 미국 여러 거점에서 457메가와트 이상의 전용 AI 인프라를 오픈AI에 제공하기로 했습니다. 반면 캐나다 텔러스는 밴쿠버 AI 데이터센터 2곳 계획에서 철수했습니다.",
       "title": "AI 인프라 경쟁 지속…TensorWave, 오픈AI에 457MW 규모 AMD 기반 인프라 공급"
+    },
+    {
+      "rank": 12,
+      "category": "정치",
+      "importance": 3,
+      "title": "장동혁 국민의힘 대표, 청와대 앞 현장 최고위 열고 '탈옥법' 반대",
+      "summary": "국민의힘 장동혁 대표는 16일 청와대 앞에서 현장 최고위원회의를 열고 '이재명 탈옥법이 통과되는 순간 우리 모두 독재 국가의 국민이 된다'고 주장했습니다. 집값 양극화와 증시 불안에 대한 사과와 정책 전환도 대통령에게 촉구했다고 보도됐습니다.",
+      "implication": "예산·법안 심사를 앞두고 여야 대치가 길어질 수 있어 국회 일정과 협상 여부를 지켜봐야 합니다.",
+      "sources": [
+        {
+          "name": "파이낸셜뉴스",
+          "url": "https://www.fnnews.com/news/202611160928204104"
+        },
+        {
+          "name": "파이낸스투데이",
+          "url": "https://www.fntoday.co.kr/news/articleView.html?idxno=398380"
+        }
+      ]
     },
     {
       "category": "사회",
