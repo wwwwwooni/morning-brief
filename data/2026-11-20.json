@@ -1,0 +1,238 @@
+{
+  "briefDate": "2026-11-20",
+  "newsDate": "2026-11-19",
+  "generatedAt": "2026-11-20T07:20:00+09:00",
+  "overview": "수능이 치러지고 수출 1조 달러 돌파·앤트로픽 상장·특검법 시행이 겹쳐, 코스피가 장중 5000선을 내줬다가 5137.89로 반등한 하루였습니다.",
+  "items": [
+    {
+      "rank": 1,
+      "category": "경제",
+      "importance": 5,
+      "title": "한국 사상 첫 연간 수출 1조 달러 돌파…세계 4번째",
+      "summary": "산업통상부는 19일 올해 누적 수출액이 1조 달러를 넘어선 것으로 잠정 집계됐다고 밝혔습니다. 2006년 미국·독일, 2007년 중국에 이어 19년 만의 세계 4번째 기록이며 전년 같은 기간(6148억 달러)보다 62.7% 늘었습니다. 반도체 중심 수출 구조와 내수 부진, 통상 압박이 과제로 지적됐습니다.",
+      "implication": "반도체 쏠림과 통상 압박을 어떻게 관리하느냐가 수출 1조 달러 이후의 지속 가능성을 가릅니다.",
+      "sources": [
+        {
+          "name": "세계일보",
+          "url": "https://www.segye.com/newsView/20261119515757"
+        },
+        {
+          "name": "서울신문",
+          "url": "https://www.seoul.co.kr/news/economy/2026/11/19/20261119500342"
+        },
+        {
+          "name": "헤럴드경제",
+          "url": "https://biz.heraldcorp.com/article/10943083"
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "category": "사회",
+      "importance": 5,
+      "title": "2027학년도 수능 시행…부정행위 98명 적발, 재난문자로 49명",
+      "summary": "교육부는 19일 4교시 종료 시점(오후 4시 37분) 기준 부정행위자 98명을 적발했다고 밝혔습니다. 시험 당일 발송한 위급재난문자로 적발된 인원이 49명이고, 전자기기 적발은 44명입니다. 스마트안경 착용, 소형카메라·무선이어폰 사용, 문제지 촬영 등 스마트기기 활용 사례도 5건 확인됐습니다. 최종 집계는 20일 오전 발표 예정이며 처분은 12월 11일 성적 발표 전에 마무리할 방침입니다.",
+      "implication": "98명이 전체 부정행위를 포함한 수치인지 불분명해 20일 최종 집계와 부정행위심의위 처분 결과를 지켜봐야 합니다.",
+      "sources": [
+        {
+          "name": "경향신문",
+          "url": "https://www.khan.co.kr/article/202611191915001"
+        },
+        {
+          "name": "서울경제",
+          "url": "https://m.sedaily.com/article/20116709"
+        },
+        {
+          "name": "주간경향",
+          "url": "https://weekly.khan.co.kr/article/202611191906001"
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "category": "정치",
+      "importance": 5,
+      "title": "이 대통령 '조작기소 특검법' 재가…19일 관보 게재·시행",
+      "summary": "이재명 대통령이 해외 순방 중 '조작기소 특검법'을 재가했고 19일 관보에 게재돼 즉시 시행됐습니다. 특검은 최대 309명, 최장 200일 규모입니다. 국민의힘은 '기습 재가'라며 특검 후보 추천 거부와 헌법소원·장외투쟁을 예고했고, 개혁신당도 위헌성을 이유로 법적 대응을 예고했습니다. 재가 시점(17일설)과 수사 대상 건수는 보도마다 다릅니다.",
+      "implication": "특검 임명 절차와 야당의 헌법소원·권한쟁의심판 청구가 정국 경색의 다음 국면입니다.",
+      "sources": [
+        {
+          "name": "한국경제",
+          "url": "https://www.hankyung.com/article/2026111982991"
+        },
+        {
+          "name": "천지일보",
+          "url": "https://www.newscj.com/news/articleView.html?idxno=3450385"
+        },
+        {
+          "name": "문화일보",
+          "url": "https://www.munhwa.com/article/11632573"
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "category": "AI",
+      "importance": 5,
+      "title": "앤트로픽 나스닥 상장…공모가 83달러, 사상 최대 IPO 약 813억 달러",
+      "summary": "앤트로픽은 공모가를 주당 83달러로 정하고 약 9억 8천만 주를 발행해 813억 달러를 조달했다고 보도됐으며, 6월 스페이스X의 기록을 넘어선 사상 최대 규모입니다. 19일 티커 ANT로 거래를 시작해 Benzinga는 111.50달러 개장(+34%), Fox Business는 장중 한때 114.99달러까지 올랐다 95~105달러로 밀렸다고 전했습니다. CNBC 라이브 블로그는 종가 97.17달러(약 +17%)로 집계해 매체별 수치가 엇갈립니다.",
+      "implication": "상장 이후 주가 흐름과 AI 업계 자금조달 경쟁, 국내 AI 관련주 투자 심리에 미칠 영향을 지켜봐야 합니다.",
+      "sources": [
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/19/anthropic-ipo-ant-live-updates.html"
+        },
+        {
+          "name": "Benzinga",
+          "url": "https://www.benzinga.com/markets/tech/26/11/63442044/anthropic-stock-opens-at-111-50-in-record-breaking-nasdaq-debut"
+        },
+        {
+          "name": "Fox Business",
+          "url": "https://www.foxbusiness.com/markets/anthropic-begins-trading-nasdaq-record-breaking-ipo"
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "category": "경제",
+      "importance": 4,
+      "title": "코스피 장중 5000선 붕괴 딛고 1.39% 상승…5137.89 마감",
+      "summary": "19일 코스피는 70.45포인트(1.39%) 오른 5137.89에 마감해 이틀 연속 상승했습니다. 장중 4963.61까지 밀렸다가 수출 1조 달러 돌파와 한중 정상회담 한한령 완화 기대, 앤트로픽 상장 기대에 반등했고 코스닥은 3.32% 오른 684.81로 마쳤습니다. 외국인은 4035억원을 순매도해 5거래일 연속 매도했고, 엔터·카지노 등 오락·문화 업종지수는 9.39% 올랐습니다.",
+      "implication": "외국인 5거래일 연속 매도 속에서 반등이 이어질지는 한한령 완화 구체화 여부와 AI주 흐름에 달렸습니다.",
+      "sources": [
+        {
+          "name": "인더스트리뉴스",
+          "url": "https://www.industrynews.co.kr/news/articleView.html?idxno=89895"
+        },
+        {
+          "name": "전자신문",
+          "url": "https://www.etnews.com/20261119000413"
+        },
+        {
+          "name": "한양경제",
+          "url": "https://www.hanyangeconomy.com/news/articleView.html?idxno=10684"
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "category": "IT",
+      "importance": 4,
+      "title": "삼성전자 1.13%·SK하이닉스 3.41% 상승…장중 하락 딛고 반등 마감",
+      "summary": "19일 삼성전자는 1.13% 오른 19만6900원, SK하이닉스는 3.41% 오른 118만3000원에 마감했습니다(일부 기사는 삼성전자 19만5600원, +0.46%로 집계). 두 종목은 오전에 삼성전자 18만9800원, SK하이닉스 111만5000원까지 밀렸다가 반등했으며 외국인은 삼성전자 1078억원, SK하이닉스 532억원을 순매도했습니다. 앤트로픽 상장을 앞둔 AI 기대감이 상승 요인으로 꼽혔고, 반도체 피크아웃 우려가 남아 있다는 보도도 있었습니다.",
+      "implication": "외국인 순매도 속에서도 개인·기관 매수가 반등을 떠받쳤는지, 이익 지속 여부가 관건입니다.",
+      "sources": [
+        {
+          "name": "강원도민일보",
+          "url": "https://www.kado.net/news/articleView.html?idxno=2085989"
+        },
+        {
+          "name": "산경투데이",
+          "url": "https://www.sankyungtoday.com/news/articleView.html?idxno=64340"
+        },
+        {
+          "name": "서플",
+          "url": "https://supple.kr/news/cmwnav17r88b4kwp8hk5q86zh"
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "category": "정치",
+      "importance": 4,
+      "title": "민주유공자법 본회의 상정·필리버스터 돌입…주택공급 3법 처리 무산",
+      "summary": "국회는 19일 본회의에 민주유공자법을 상정했고 국민의힘은 필리버스터에 돌입했습니다. 국민의힘은 유공자 선정 기준 불명확 등을 문제 삼았고, 민주당은 입학·취업 특례를 직접 부여하는 법이 아니라고 반박했습니다. 민주당은 주택공급 3법을 이날 상정하지 않기로 해 빨라야 다음 달 2일 본회의에서 다뤄질 전망입니다.",
+      "implication": "필리버스터 종료·표결 시점과 주택공급 3법 처리 지연이 정기국회 마무리 일정에 영향을 줄 전망입니다.",
+      "sources": [
+        {
+          "name": "파이낸셜뉴스",
+          "url": "https://fnnews.com/news/202611191824506941"
+        },
+        {
+          "name": "한국일보",
+          "url": "https://www.hankookilbo.com/news/article/A2026111914060002587"
+        },
+        {
+          "name": "네이트뉴스",
+          "url": "https://m.news.nate.com/view/20261119n24036"
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "category": "사회",
+      "importance": 3,
+      "title": "수능 당일 경찰·소방 수험생 긴급 수송…지각 위기 수험생 이송",
+      "summary": "경기남부경찰청은 19일 오전 5시부터 8시 30분까지 수능 관련 112신고 175건을 처리했고, 이 중 수험생 수송 요청이 83건이었다고 밝혔습니다. 광주에서는 6건을 접수해 5명을 시험장까지 긴급 수송했고 전북에서는 시험장을 착각한 수험생 3명을 이송했습니다. 시험장 폭파 등 공중협박 신고는 접수되지 않았다고 경기남부청은 밝혔습니다.",
+      "implication": "수능 당일 교통·응급 대응이 대체로 안정적으로 이뤄졌는지는 교육 당국의 종합 점검에서 확인될 전망입니다.",
+      "sources": [
+        {
+          "name": "파이낸셜뉴스",
+          "url": "https://www.fnnews.com/news/202611191008543978"
+        },
+        {
+          "name": "네이트뉴스(광주)",
+          "url": "https://m.news.nate.com/view/20261119n16895"
+        },
+        {
+          "name": "네이트뉴스(전북)",
+          "url": "https://m.news.nate.com/view/20261119n10140"
+        }
+      ]
+    },
+    {
+      "rank": 9,
+      "category": "경제",
+      "importance": 3,
+      "title": "원/달러 1330.0원, 4거래일 연속 하락…수출업체 네고에 눌려",
+      "summary": "19일 원/달러 환율은 주간 거래 종가 기준 3.0원 내린 1330.0원으로, 미국의 추가 긴축 우려에도 4일 연속 하락했습니다. 수출업체의 달러 매도(네고) 물량이 하락 배경으로 꼽혔고, 1320원대에서는 결제 수요가 유입돼 추가 하락이 제한됐다는 설명입니다. 장중 수치(1,331.00원 등)와 종가가 달라 시점 확인이 필요합니다.",
+      "implication": "강달러 환경에서 네고 물량이 소진되면 하락세가 꺾일 수 있어 1320원대 지지 여부를 지켜봐야 합니다.",
+      "sources": [
+        {
+          "name": "SBS Biz",
+          "url": "https://biz.sbs.co.kr/article/20000347623"
+        },
+        {
+          "name": "서울경제",
+          "url": "https://www.sedaily.com/article/20116571"
+        }
+      ]
+    },
+    {
+      "rank": 10,
+      "category": "IT",
+      "importance": 3,
+      "title": "반도체 장비주 동반 강세…GST 20%·테스 15% 급등",
+      "summary": "19일 반도체 장비·부품주가 대형주보다 강한 상승률을 보였고 GST는 20%, 테스는 15% 올랐다고 보도됐습니다. 기사들은 메모리 증설 투자와 AI 서버용 HBM 수요 확대 기대를 배경으로 짚었지만, 특정 HBM4 뉴스와의 직접적 연결은 확인되지 않았습니다.",
+      "implication": "메모리 업체의 설비투자 계획이 구체화되는지가 장비주 강세의 지속 여부를 좌우할 전망입니다.",
+      "sources": [
+        {
+          "name": "톱스타뉴스",
+          "url": "https://www.topstarnews.net/news/articleView.html?idxno=16280809"
+        },
+        {
+          "name": "핀포인트뉴스",
+          "url": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=505969"
+        }
+      ]
+    },
+    {
+      "rank": 11,
+      "category": "AI",
+      "importance": 3,
+      "title": "구글 제미나이 4 네온 공개 보도…GPT-6.2 평가는 엇갈려",
+      "summary": "The Decoder 등은 구글 딥마인드가 Gemini 4 Neon을 11월 18일 공개했다고 전했으며, 가격은 입력 100만 토큰당 3달러·출력 15달러, 지능지수 61점으로 GPT-6.2 Astra와 클로드 Fable 5.2에 이어 3위라고 합니다. 17일 출시된 오픈AI GPT-6.2 Astra는 과학·법률 등에서 높은 점수를 받았지만 코딩에서는 의미 있는 개선이 없다는 평가가 나왔습니다. 모두 2차 집계 매체 보도로 날짜와 수치는 공식 발표와 대조하지 못했습니다.",
+      "implication": "최상위 모델 간 격차가 좁아지는 가운데 가격 경쟁이 기업의 AI 도입 비용에 어떤 영향을 줄지 지켜볼 만합니다.",
+      "sources": [
+        {
+          "name": "The Decoder",
+          "url": "https://the-decoder.com/googles-latest-ai-model-is-faster-cheaper-and-smarter-than-its-flagship-predecessor-from-just-weeks-ago"
+        },
+        {
+          "name": "The Rundown",
+          "url": "https://therundown.ai/articles/openai-newest-release-lands-to-rough-reviews"
+        }
+      ]
+    }
+  ]
+}
