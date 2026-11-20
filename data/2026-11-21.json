@@ -1,0 +1,216 @@
+{
+  "briefDate": "2026-11-21",
+  "newsDate": "2026-11-20",
+  "generatedAt": "2026-11-21T07:20:00+09:00",
+  "overview": "엔비디아 SEC 회계 조사 보도와 대중 수출통제 여파로 코스피가 5.21% 폭락한 가운데, 국회는 민주유공자법을 여당 주도로 통과시켰습니다.",
+  "items": [
+    {
+      "rank": 1,
+      "category": "경제",
+      "importance": 5,
+      "title": "코스피 5.21% 폭락, 4869.96 마감…주간 낙폭 7.95%",
+      "summary": "20일 코스피는 267.93포인트(5.21%) 내린 4869.96으로 마감했고, 코스닥은 39.13포인트(5.71%) 내린 645.68에 마쳤습니다. 코스피는 전주 종가(5290.53) 대비 420.57포인트(7.95%) 내렸습니다. 앤트로픽 상장에 따른 기존 종목 투매, 뉴욕증시와 미국 반도체지수 하락이 국내 반도체주 급락으로 이어졌고 외국인과 기관이 동반 순매도했다고 보도됐습니다.",
+      "implication": "엔비디아 회계 조사 보도와 대중 수출 규제 여파가 이어질지가 다음 주 낙폭 확대 여부를 가를 전망입니다.",
+      "sources": [
+        {
+          "name": "YTN",
+          "url": "https://www.ytn.co.kr/_cs/_ln_0102_202611201839426402_005.html"
+        },
+        {
+          "name": "라이센스뉴스",
+          "url": "https://www.lcnews.co.kr/news/articleView.html?idxno=211776"
+        },
+        {
+          "name": "Businesskorea",
+          "url": "https://www.businesskorea.co.kr/news/articleView.html?idxno=281841"
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "category": "IT",
+      "importance": 5,
+      "title": "삼성전자 7.01%·SK하이닉스 5.92% 급락…외국인 투매",
+      "summary": "20일 삼성전자는 1만3800원(7.01%) 내린 18만3100원, SK하이닉스는 7만원(5.92%) 내린 111만3000원에 마감했습니다. 외국인은 삼성전자를 약 4324억원, SK하이닉스를 약 2001억원 순매도했다는 보도가 있습니다. AI 투자 수익성, 대중 반도체 규제, 추가 긴축 우려가 겹친 영향으로 풀이됐으며, KB증권은 낙폭이 과도하다며 2027년 D램 계약가격이 전년 대비 약 40% 오를 것으로 전망했습니다.",
+      "implication": "한 증권가 애널리스트는 추가 하락을 경고한 반면 증권사들은 낙폭 과대로 보는 등 시각이 갈려 외국인 수급 방향이 핵심입니다.",
+      "sources": [
+        {
+          "name": "파이낸셜뉴스",
+          "url": "https://fnnews.com/news/202611201546545138"
+        },
+        {
+          "name": "이투데이",
+          "url": "https://www.etoday.co.kr/news/view/2650734"
+        },
+        {
+          "name": "네이트뉴스",
+          "url": "https://m.news.nate.com/view/20261120n31541"
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "category": "AI",
+      "importance": 5,
+      "title": "엔비디아, SEC 회계 조사 보도에 10%대 급락…시총 약 4910억 달러 증발",
+      "summary": "로이터는 복수의 소식통을 인용해 SEC 직원들이 엔비디아의 회계 문제를 들여다보고 있다고 보도했고, 20일 엔비디아 주가는 52주 최저로 내려앉았습니다. 낙폭은 보도 시점에 따라 약 11.5~14%로 엇갈리며, 하루 시총 약 4910억 달러가 사라졌다는 추산도 나왔습니다. SEC는 논평을 거부했고 조사 착수 시점과 대상은 확인되지 않았으며, 조사가 곧 위법을 뜻하지는 않습니다.",
+      "implication": "SEC 조사 범위 확인과 젠슨 황 사임 이후 경영 불확실성이 AI 반도체 공급망 전반의 투자 심리에 계속 부담이 될 전망입니다.",
+      "sources": [
+        {
+          "name": "Seeking Alpha",
+          "url": "https://seekingalpha.com/news/4675286-nvidia-tumbles-as-sec-probe-explores-accounting-issues-report"
+        },
+        {
+          "name": "Motley Fool",
+          "url": "https://www.fool.com/investing/2026/11/20/nvidia-stock-plunge-wipes-out-nearly-usd500-billion-in-one-day-as-sec-reportedly-probes-its-accounting/"
+        },
+        {
+          "name": "Investing.com",
+          "url": "https://au.investing.com/news/stock-market-news/nvidia-shares-fall-115-as-report-of-sec-accounting-probe-adds-to-pressure-4787315"
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "category": "정치",
+      "importance": 5,
+      "title": "민주유공자법 본회의 통과…재석 178명 전원 찬성, 국민의힘 표결 불참",
+      "summary": "국회는 20일 본회의에서 민주유공자법을 재석 178명 전원 찬성으로 가결했고, 국민의힘은 표결에 참여하지 않았습니다. 국민의힘의 필리버스터가 재적 3/5 찬성으로 종결된 뒤 표결이 이뤄졌습니다. 이 법은 2024년 윤석열 전 대통령의 거부권으로 폐기됐다가 약 2년 반 만에 다시 처리됐으며, 국민의힘은 유공자 인정 기준이 불명확하고 대입 특혜 우려가 있다며 '운동권 특혜법'이라고 반발했습니다.",
+      "implication": "대통령 공포 여부와 야당의 위헌성 문제 제기, 대입 특례 등 시행 세부 규정이 다음 쟁점입니다.",
+      "sources": [
+        {
+          "name": "파이낸셜뉴스",
+          "url": "https://www.fnnews.com/news/202611201541354361"
+        },
+        {
+          "name": "서울신문",
+          "url": "https://seoul.co.kr/news/politics/2026/11/20/20261120500252"
+        },
+        {
+          "name": "신아일보",
+          "url": "https://www.shinailbo.co.kr/news/articleView.html?idxno=5085921"
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "category": "IT",
+      "importance": 4,
+      "title": "FT “삼성전자·TSMC, 중국행 일부 칩 출하 중단”…미 수출통제 여파",
+      "summary": "FT는 19일(현지시간) 미 상무부의 수출통제 강화 이후 삼성전자와 TSMC가 중국 고객사 일부에 대한 반도체 출하를 멈췄다고 전했습니다. 로이터를 인용한 보도에서 TSMC는 중국 고객사에 16나노 이하 공정 주문은 미국 수출허가 없이 진행할 수 없다고 안내한 것으로 알려졌습니다. 삼성전자와 TSMC는 입장을 밝히지 않았고, 모두 FT의 복수 소식통에 근거한 보도입니다.",
+      "implication": "허가 심사가 길어지면 삼성전자 파운드리의 중국 고객 매출과 생산 일정에 차질이 생길 수 있어 후속 허가 여부를 지켜봐야 합니다.",
+      "sources": [
+        {
+          "name": "한국경제",
+          "url": "https://www.hankyung.com/article/2026112088337"
+        },
+        {
+          "name": "EBN",
+          "url": "https://www.ebn.co.kr/news/articleView.html?idxno=1732409"
+        },
+        {
+          "name": "한국일보",
+          "url": "https://www.hankookilbo.com/news/article/A2026111923330002689"
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "category": "AI",
+      "importance": 4,
+      "title": "앤트로픽, 상장 이틀째 하락…AI 매도 속 첫날 상승분 반납",
+      "summary": "상장 첫날 17% 오른 앤트로픽 주가는 20일 하락했고, CNBC는 8.5% 하락, 다른 CNBC 기사는 6% 이상 하락, 야후 라이브 블로그는 장중 최대 12% 하락으로 전해 집계가 엇갈립니다. 엔비디아 급락과 함께 AI 관련주 매도가 확산됐고 미국 증시 주요 지수가 약세를 보였다고 보도됐습니다. 대부분 장중 수치로 종가는 다를 수 있습니다.",
+      "implication": "상장 직후 변동성이 큰 만큼 락업 해제 일정과 AI 업종 전반의 실적 기대 재평가가 관건입니다.",
+      "sources": [
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/20/stocks-moving-the-most-today-live-updates.html"
+        },
+        {
+          "name": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/technology/live/anthropic-ipo-live-anthropic-stock-drops-after-first-day-of-trading-143300513.html"
+        },
+        {
+          "name": "NBC News",
+          "url": "https://www.nbcnews.com/business/markets/live-blog/anthropic-ipo-live-updates-rcna610159"
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "category": "사회",
+      "importance": 4,
+      "title": "수능 전자기기 부정행위 최종 111건 확인…재난문자로 54건",
+      "summary": "교육부는 20일 수능 전자기기 관련 부정행위를 최종 111건으로 확인했다고 밝혔다고 보도됐습니다. 재난문자 3차례 발송으로 적발된 사례가 54건으로 가장 많았고, 시험 중 스마트기기를 실제 사용한 경우는 5건이었습니다. 당일 잠정 집계 98명보다 늘었으며 기사에 따라 '명'과 '건'이 혼용돼 사람 수와 같은지는 확인되지 않았습니다.",
+      "implication": "부정행위심의위 처분과 이의신청은 12월 11일 성적 발표 전에 마무리될 예정이며, 논술 등 대학별고사 보안 강화 논의로 이어질 수 있습니다.",
+      "sources": [
+        {
+          "name": "뉴스에듀신문",
+          "url": "https://www.newsedu.co.kr/news/articleView.html?idxno=102369"
+        },
+        {
+          "name": "MBC",
+          "url": "https://imnews.imbc.com/replay/2026/nw1200/article/6867224_36967.html"
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "category": "경제",
+      "importance": 3,
+      "title": "원/달러 6.2원 오른 1336.2원…외국인 1.7조 순매도",
+      "summary": "20일 원/달러 환율은 오후 3시 30분 기준 전 거래일보다 6.2원 오른 1336.2원에 마감했습니다. 외국인의 1.7조원 순매도가 환율 상승 요인으로 보도됐습니다. 4일 연속 하락하던 흐름이 상승으로 돌아섰고, 일부 기사가 전한 1330.8원은 마감 시점 수치가 아닌 것으로 보입니다.",
+      "implication": "외국인 증시 이탈이 계속되면 환율 상방 압력이 커질 수 있어 1340원 부근 흐름을 지켜봐야 합니다.",
+      "sources": [
+        {
+          "name": "뉴시스",
+          "url": "https://newsis.com/view/NISX20261120_0003877016"
+        },
+        {
+          "name": "뉴스1",
+          "url": "https://www.news1.kr/finance/market-exr/6361215"
+        }
+      ]
+    },
+    {
+      "rank": 9,
+      "category": "정치",
+      "importance": 3,
+      "title": "예결소위 '빛의 위원회' 예산 충돌로 파행…주택공급 3법은 속도 조절",
+      "summary": "예산안 조정소위에서 78억원 규모 '빛의 위원회' 예산을 두고 국민의힘이 사업 중복과 계획 부실을 이유로 전액 삭감을 요구했고 민주당은 필수 예산이라고 맞서 이광재 예결위원장이 정회를 선언했습니다. 주택공급 3법은 여당 내에서 예산안 심사 중 단독 처리를 자제해야 한다는 의견이 나오는 등 속도 조절을 고심하는 것으로 전해졌습니다. 국민의힘은 수능 대책을 '땜질'이라며 교육부 장관 해임을 촉구했습니다.",
+      "implication": "12월 2일 예산 처리 시한까지 쟁점 예산 협상과 해임건의안 제출 여부가 여야 대치의 변수입니다.",
+      "sources": [
+        {
+          "name": "아주경제",
+          "url": "https://www.ajunews.com/view/20261120165018419"
+        },
+        {
+          "name": "파이낸셜뉴스",
+          "url": "https://fnnews.com/news/202611200829182274"
+        }
+      ]
+    },
+    {
+      "rank": 10,
+      "category": "사회",
+      "importance": 3,
+      "title": "20일 사건·사고: 신림 인도 돌진, 영월 정면충돌 2명 사망, 하남 영아 친모 구속",
+      "summary": "서울 관악구 신림동에서 80대 운전자가 인도로 돌진해 행인 2명이 경상을 입었고 음주·졸음 정황은 없는 것으로 파악됐습니다. 강원 영월에서는 택시와 SUV가 정면 충돌해 2명이 숨졌고, 하남 신생아 시신 사건과 관련해 30대 친모가 살인·시체유기 혐의로 구속됐다고 전해졌습니다. 사건·사고 모음 기사에 근거해 세부 사실은 원문 확인이 필요합니다.",
+      "implication": "고령 운전자 사고와 영아 사건은 운전 적성검사 강화와 영아 보호 제도 점검 논의로 이어질 수 있습니다.",
+      "sources": [
+        {
+          "name": "서울신문",
+          "url": "https://seoul.co.kr/news/society/accident/2026/11/20/20261120500317"
+        },
+        {
+          "name": "한국재난안전뉴스",
+          "url": "https://www.kdsn.co.kr/news/article.html?no=49814"
+        },
+        {
+          "name": "데일리25",
+          "url": "https://www.daily25news.com/news/articleView.html?idxno=9218"
+        }
+      ]
+    }
+  ]
+}
